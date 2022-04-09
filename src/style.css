@@ -9,6 +9,8 @@ body {
   padding: 0px;
   margin-top: 0px;
   padding-top: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 header {
@@ -17,24 +19,29 @@ header {
   background-color: black;
   padding-top: 10px;
   padding-bottom: 2px;
+  text-align: center;
 }
 
 header h1 {
   color: white;
-  text-align: center;
 }
 
-#contenedorPrincipal {
+header h2 {
+  font-size: 18px;
+  color: rgb(79, 199, 105);
+}
+
+#contenedor-principal {
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#contenedorPrincipal li {
+#contenedor-principal li {
   margin-bottom: 15px;
 }
-#contenedorPrincipal * + li {
+#contenedor-principal * + li {
   margin-top: 15px;
 }
 
