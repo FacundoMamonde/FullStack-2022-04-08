@@ -1,0 +1,53 @@
+html {
+  background-color: rgb(190, 190, 190);
+}
+
+body {
+  margin: auto;
+  max-width: 600px;
+  background-color: white;
+  padding: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+#contenedorPrincipal {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contenedorPrincipal li {
+  margin-bottom: 15px;
+}
+#contenedorPrincipal * + li {
+  margin-top: 15px;
+}
+
+#inputybutton button {
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 146, 1);
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#inputybutton button:hover {
+  background-color: rgb(8, 173, 2);
+  cursor: pointer;
+}
